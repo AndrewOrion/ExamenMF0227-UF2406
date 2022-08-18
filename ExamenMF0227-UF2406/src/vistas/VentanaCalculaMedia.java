@@ -130,16 +130,10 @@ public class VentanaCalculaMedia extends JFrame {
 	
 		lblNota.setText(""+nota);
 		lblResultado.setText(nombre + " ha sacado un " + devuelveNota(nota));
+		
 	}
 
 }
-
-	
-	
-
-	
-	
-	
 	
 	
 	public String devuelveNota(double nota) {
